@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "Hallo"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "Hallo - Say hello in German"
 
   # This description is used to generate tags and improve search results.
