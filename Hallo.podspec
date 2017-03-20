@@ -65,7 +65,7 @@ This is just for testing podspecs.
   #  the deployment target. You can optionally include the target after the platform.
   #
 
-  s.platform     = :ios
+  s.platforms = { :ios => "8.0", :osx => "10.7"}
   # s.platform     = :ios, "5.0"
 
   #  When using multiple platforms
