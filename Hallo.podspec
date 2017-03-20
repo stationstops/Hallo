@@ -81,7 +81,8 @@ This is just for testing podspecs.
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/stationstops/Hallo.git", :commit => "9053220aca5ef1758f1d3803e83f7839d29a4f9a", :tag => '0.0.1'}
+  s.source       = { :git => "https://github.com/stationstops/Hallo.git", :commit => "9053220aca5ef1758f1d3803e83f7839d29a4f9a", :tag =>
+'0.0.2'}
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
