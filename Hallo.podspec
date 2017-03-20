@@ -65,7 +65,7 @@ This is just for testing podspecs.
   #  the deployment target. You can optionally include the target after the platform.
   #
 
-  # s.platform     = :ios
+  s.platform     = :ios
   # s.platform     = :ios, "5.0"
 
   #  When using multiple platforms
@@ -81,7 +81,7 @@ This is just for testing podspecs.
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/stationstops/Hallo.git", :commit => "9053220aca5ef1758f1d3803e83f7839d29a4f9a" }
+  s.source       = { :git => "https://github.com/stationstops/Hallo.git", :commit => "9053220aca5ef1758f1d3803e83f7839d29a4f9a", :tag => '0.0.1'}
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -92,7 +92,7 @@ This is just for testing podspecs.
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "Classes", "Classes/**/*.{h,m}"
+  s.source_files  = "Classes", "Hallo/Classes/**/*.{h,m}"
   s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
