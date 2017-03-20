@@ -20,6 +20,7 @@
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
+		63EFCC5A1E8027580002AE7C /* XR_Hallo.m in Sources */ = {isa = PBXBuildFile; fileRef = 63EFCC591E8027580002AE7C /* XR_Hallo.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		7767453C3BD26B9C9367FF3A /* Pods_Hallo_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0A056D3E42A419964FBC009 /* Pods_Hallo_Tests.framework */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
@@ -39,8 +40,8 @@
 /* Begin PBXFileReference section */
 		0E52D26A56B15622DF4BE8AD /* Pods-Hallo_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hallo_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Hallo_Example/Pods-Hallo_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		1B4CD9AF1BDF3C41DE8D4093 /* Pods_Hallo_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Hallo_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4CD8BDE5B70FA642FE8747FC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		5CEA61F0B7AB2038F752310F /* Hallo.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = Hallo.podspec; path = ../Hallo.podspec; sourceTree = "<group>"; };
+		4CD8BDE5B70FA642FE8747FC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		5CEA61F0B7AB2038F752310F /* Hallo.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Hallo.podspec; path = ../Hallo.podspec; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* Hallo_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hallo_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -60,8 +61,10 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
+		63EFCC581E8027580002AE7C /* XR_Hallo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XR_Hallo.h; sourceTree = "<group>"; };
+		63EFCC591E8027580002AE7C /* XR_Hallo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XR_Hallo.m; sourceTree = "<group>"; };
 		642B68932825CC527AAEA0BD /* Pods-Hallo_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hallo_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Hallo_Tests/Pods-Hallo_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		658636CD6C091B1034B2B7D1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		658636CD6C091B1034B2B7D1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		811697DEA4CA466553AD7A6B /* Pods-Hallo_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hallo_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Hallo_Tests/Pods-Hallo_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		8488CD4B31BED475AD7CB2E4 /* Pods-Hallo_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hallo_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-Hallo_Example/Pods-Hallo_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -98,6 +101,7 @@
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
+				63EFCC571E8027580002AE7C /* Classes */,
 				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
 				6003F593195388D20070C39A /* Example for Hallo */,
 				6003F5B5195388D20070C39A /* Tests */,
@@ -183,6 +187,15 @@
 				658636CD6C091B1034B2B7D1 /* LICENSE */,
 			);
 			name = "Podspec Metadata";
+			sourceTree = "<group>";
+		};
+		63EFCC571E8027580002AE7C /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				63EFCC581E8027580002AE7C /* XR_Hallo.h */,
+				63EFCC591E8027580002AE7C /* XR_Hallo.m */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		B1391A2BF2ED6A56841EA492 /* Pods */ = {
@@ -396,6 +409,7 @@
 			files = (
 				6003F59E195388D20070C39A /* XR_AppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* XR_ViewController.m in Sources */,
+				63EFCC5A1E8027580002AE7C /* XR_Hallo.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

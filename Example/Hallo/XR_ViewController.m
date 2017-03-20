@@ -7,6 +7,8 @@
 //
 
 #import "XR_ViewController.h"
+#import "XR_Hallo.h"
+
 
 @interface XR_ViewController ()
 
@@ -18,6 +20,12 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    XR_Hallo *hallo = [XR_Hallo new];
+    NSLog(@"Output: %@", [hallo hallo]);
+    
+    
+    
 }
 
 - (void)didReceiveMemoryWarning
